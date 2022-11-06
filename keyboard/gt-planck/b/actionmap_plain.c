@@ -36,7 +36,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 const action_t actionmaps[][MATRIX_ROWS][MATRIX_COLS] = { 
 	[0] = ACTIONMAP_ENC(
-	ESC,    Q,    W,    E,    R,    T,    Y,    U,    I,    O,    P,     BSPC,
+	ESC,    1,    2,    3,    4,    5,    6,    7,    8,    9,    0,     BSPC,
 	TAB,    A,    S,    D,    F,    G,    H,    J,    K,    L,    SCLN,  ENTER,
 	LSFT,   Z,    X,    C,    V,    B,    N,    M,    COMM, DOT,  SLSH,  RSFT,
 	LCTL,  LGUI, LALT, CAPS,  FN0,   SPACE,     FN0,  DEL,  RALT, APP,   RCTL,
