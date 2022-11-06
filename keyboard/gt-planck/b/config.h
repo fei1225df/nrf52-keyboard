@@ -72,7 +72,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define LED_CAPS 4  //caps led ：5 ； led1、2、3、4：19、20、27、26
 
 // ws2812 RGB 配置
-#define RGB_DI_PIN 1
+#define RGB_DI_PIN 27
 #define RGBLED_NUM 70
 #define DRIVER_LED_TOTAL RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
@@ -138,7 +138,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // 按键阵列配置
 #define MATRIX_ROWS 5 /* 硬件阵列行数 */
-#define MATRIX_COLS 13 /* 硬件阵列列数 */
+#define MATRIX_COLS 16 /* 硬件阵列列数 */
 
 /* key combination for command */
 #define IS_COMMAND() ( \
