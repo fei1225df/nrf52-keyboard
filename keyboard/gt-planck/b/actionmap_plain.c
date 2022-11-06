@@ -35,14 +35,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
 const action_t actionmaps[][MATRIX_ROWS][MATRIX_COLS] = { 
-	[0] = ACTIONMAP_ENC(
+	[0] = ACTIONMAP(
 	ESC,   GRV,   1,    2,    3,    4,    5,    6,    7,    8,    9,    0,     MINS,     EQL,    BSPC,   DEL,
 	TAB,    Q,    W,    E,    R,    T,    Y,    U,    I,    O,    P,    LBRC,  RBRC,     BSLS,
 	CAPS,   A,    S,    D,    F,    G,    H,    J,    K,    L,    SCLN, DUOT,  ENTER,
 	LSFT,   Z,    X,    C,    V,    B,    N,    M,    COMM, DOT,  SLSH, RSFT,  UP,
 	LCTL,  LGUI, LALT,   SPACE,    RALT,  FN0,  RCTL, LEFT, DOWN ,RIGHT,NUM),
 
-	[1] = ACTIONMAP_ENC(
+	[1] = ACTIONMAP(
 	ESC,   GRV,   F1,    F2,   F3,    F4,    F5,    F6,    F7,    F8,    F9,    F10,     F11,     F12,    BSPC,   INS,
 	TAB,    Q,    W,    E,    R,    T,    Y,    U,    I,    O,    P,    LBRC,  RBRC,     BSLS,
 	CAPS,   A,    S,    D,    F,    G,    H,    J,    K,    L,    SCLN, DUOT,  ENTER,
