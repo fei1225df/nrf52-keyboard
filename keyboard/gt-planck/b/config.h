@@ -92,7 +92,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_MATRIX_STARTUP_HUE 0 // Sets the default hue value, if none has been set
 #define RGB_MATRIX_STARTUP_SAT 255 // Sets the default saturation value, if none has been set
 #define RGB_MATRIX_STARTUP_VAL RGB_MATRIX_MAXIMUM_BRIGHTNESS // Sets the default brightness value, if none has been set
-#define RGB_MATRIX_CENTER { 96, 33 }
+#define RGB_MATRIX_CENTER { 120, 39 }
 #define RGB_MATRIX_INDICATORS_CAPS 31
 #define RGB_MATRIX_INDICATORS_HOST 1
 
