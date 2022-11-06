@@ -93,7 +93,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_MATRIX_STARTUP_SAT 255 // Sets the default saturation value, if none has been set
 #define RGB_MATRIX_STARTUP_VAL RGB_MATRIX_MAXIMUM_BRIGHTNESS // Sets the default brightness value, if none has been set
 #define RGB_MATRIX_CENTER { 96, 33 }
-#define RGB_MATRIX_INDICATORS_CAPS 23
+#define RGB_MATRIX_INDICATORS_CAPS 31
 #define RGB_MATRIX_INDICATORS_HOST 1
 
 // 3灯指示配置引脚
@@ -117,8 +117,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // USB UART 传输配置
 #define HAS_USB // 启用与CH554的通信支持
-#define UART_RXD 20 // UART_RX口IO 17
-#define UART_TXD 19 // UART_TX口IO 18
+#define UART_RXD 31 // UART_RX口IO 17
+#define UART_TXD 30 // UART_TX口IO 18
 //#define UART_DET 19 // UART 检测引脚，若此脚被拉低，则说明USB正在工作。若不配置则使用RX口作为检测引脚
 #define UART_BAUDRATE NRF_UART_BAUDRATE_115200 // 通信波特率，请不要修改
 
@@ -130,7 +130,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define PIN_STANDBY !UCC2
 
 // 多用途 Bootloader 按钮
-#define NRF_BL_DFU_MULTI_ROLE_BTN 21
+//#define NRF_BL_DFU_MULTI_ROLE_BTN 21
 // Bootloader指示灯
 //#define LED_DFU_INIT 5
 //#define LED_DFU_START 4
@@ -144,8 +144,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define IS_COMMAND() ( \
     keyboard_report->mods == (MOD_BIT(KC_LSHIFT) | MOD_BIT(KC_RSHIFT)))
 
-static const uint8_t row_pin_array[MATRIX_ROWS] = {18, 14, 30, 31, 99};
-static const uint8_t column_pin_array[MATRIX_COLS] = {3, 4, 5, 6, 7, 8, 9, 10, 25, 26, 16, 17, 15};
+static const uint8_t row_pin_array[MATRIX_ROWS] = {11, 10, 9, 8, 12};
+static const uint8_t column_pin_array[MATRIX_COLS] = {6, 5, 13, 3, 4, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14};
 
 #define ROW_IN // 键盘阵列的二极管方向是从COL->ROW
 
