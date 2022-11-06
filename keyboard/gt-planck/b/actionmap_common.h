@@ -38,8 +38,8 @@ extern const action_t actionmaps[][MATRIX_ROWS][MATRIX_COLS];
 	K10, K11, K12, K13, K14, K15, K16, K17, K18, K19, K1A, K1B, K1C, K1D, \
 	K20, K21, K22, K23, K24, K25, K26, K27, K28, K29, K2A, K2B, K2C, \
 	K30, K31, K32, K33, K34, K35, K36, K37, K38, K39, K3A, K3B, K3C, \
-	K40, K41, K42,           K45,           K48, K49, K4A, K4B, K4C,      K4E, K4F,  \
-) { \
+	K40, K41, K42,           K45,           K48, K49, K4A, K4B, K4C,      K4E, K4F,  \)
+{ \
 	{ AC_##K00, AC_##K01, AC_##K02, AC_##K03, AC_##K04, AC_##K05, AC_##K06, AC_##K07, AC_##K08, AC_##K09, AC_##K0A, AC_##K0B, AC_##K0C, AC_##K0D, AC_##K0E, AC_##K0F   }, \
 	{ AC_##K10, AC_##K11, AC_##K12, AC_##K13, AC_##K14, AC_##K15, AC_##K16, AC_##K17, AC_##K18, AC_##K19, AC_##K1A, AC_##K1B, AC_##K1C, AC_##K1D, AC_NO,    AC_NO    }, \
 	{ AC_##K20, AC_##K21, AC_##K22, AC_##K23, AC_##K24, AC_##K25, AC_##K26, AC_##K27, AC_##K28, AC_##K29, AC_##K2A, AC_##K2B, AC_##K2C, AC_NO,    AC_NO,    AC_NO   }, \
@@ -51,8 +51,8 @@ extern const action_t actionmaps[][MATRIX_ROWS][MATRIX_COLS];
 	K10, K11, K12, K13, K14, K15, K16, K17, K18, K19, K1A, K1B, K1C, K1D, \
 	K20, K21, K22, K23, K24, K25, K26, K27, K28, K29, K2A, K2B, K2C, \
 	K30, K31, K32, K33, K34, K35, K36, K37, K38, K39, K3A, K3B, K3C, \
-	K40, K41, K42,           K45,           K48, K49, K4A, K4B, K4C,      K4E, K4F,  \
-) { \
+	K40, K41, K42,           K45,           K48, K49, K4A, K4B, K4C,      K4E, K4F,  \)
+{ \
 	{ AC_##K00, AC_##K01, AC_##K02, AC_##K03, AC_##K04, AC_##K05, AC_##K06, AC_##K07, AC_##K08, AC_##K09, AC_##K0A, AC_##K0B, AC_##K0C, AC_##K0D, AC_##K0E, AC_##K0F   }, \
 	{ AC_##K10, AC_##K11, AC_##K12, AC_##K13, AC_##K14, AC_##K15, AC_##K16, AC_##K17, AC_##K18, AC_##K19, AC_##K1A, AC_##K1B, AC_##K1C, AC_##K1D, AC_NO,    AC_NO    }, \
 	{ AC_##K20, AC_##K21, AC_##K22, AC_##K23, AC_##K24, AC_##K25, AC_##K26, AC_##K27, AC_##K28, AC_##K29, AC_##K2A, AC_##K2B, AC_##K2C, AC_NO,    AC_NO,    AC_NO   }, \
